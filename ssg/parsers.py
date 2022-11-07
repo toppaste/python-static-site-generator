@@ -12,7 +12,7 @@ class Parser:
     def valid_extension(self, extension):
         return extension in self.extensions
 
-    def parse(self, path: PAth, source: Path, dest: Path):
+    def parse(self, path: Path, source: Path, dest: Path):
         raise NotImplementedError
 
     def read(self, path):
